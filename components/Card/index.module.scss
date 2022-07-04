@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.25rem;
+  border: 2px solid black;
+  width: 100%;
+  padding: 0.5rem;
+  transition: all 0.2s;
+  background: rgb(0, 0, 0);
+  color: white;
+  outline: 4px solid black;
+  cursor: pointer;
+  &:hover {
+    border: 2px solid white;
+  }
+  &:active {
+    border: 2px solid black;
+  }
+  &:first-child {
+    grid-column: 1 / -1;
+    & p {
+      white-space: initial;
+      margin: 1rem 0;
+    }
+  }
+}

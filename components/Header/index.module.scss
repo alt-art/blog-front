@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  justify-content: space-between;
+  color: white;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: black;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+}
